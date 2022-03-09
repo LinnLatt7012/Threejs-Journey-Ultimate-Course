@@ -49,6 +49,16 @@ window.addEventListener('dblclick',()=>{
 const scene = new THREE.Scene()
 
 //texture
+const cubeTextureLoader = new THREE.CubeTextureLoader()
+const environmentMap= cubeTextureLoader.setPath( 'textures/environmentMaps/0/' )
+.load( [
+    'px.png',
+    'nx.png',
+    'py.png',
+    'ny.png',
+    'pz.png',
+    'nz.png'
+] )
 
 const textureLoader = new THREE.TextureLoader()
 
@@ -104,7 +114,7 @@ material.roughnessMap = doorRoughnessTexture
 material.aoMap = doorAmbientOcclusionTexture
 material.aoMapIntensity = 2
 material.transparent = true
-
+material.envMap = environmentMap
 material.displacementScale =0.1
 //debug
 const gui = new dat.GUI({

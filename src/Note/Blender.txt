@@ -1,0 +1,43 @@
+Area
+click to top corner of area to spilt viewport 
+to unsplit from bottom corner
+
+Shortcuts
+Shift+ ctrl + middle wheel to go beyond the limit
+
+to Tilt, we nned change fly mode to Walk mode > Shift + ` (back Quote)
+Edit that > Preference > KeyMap> view navigation > WalkFly to Shift + F
+
+Prespective and Orthamgnic > Toggele them with Numpad 5
+
+Axes 
+1, Y 3, X 7, Z => + CTRL => opposite 
+
+Camera > Numpad 0
+
+Shift + C => get back origin
+
+To Focus the camera on an object > Select anf Numpad + , (comma on numeric pad )
+
+to focus object and hide everyelse with Numpad / => again will Toggele 
+
+X => delete
+F9 => get UV Sphere option back 
+H => Hide object , Alt H to get all back
+
+G,R,S => Grab, rotate, Scale 
+Shift + axex to tell not to GRS on which axes 
+
+edit mode
+
+1,2,3 -> verticx,edge, face 
+
+F3 or fn F3 is for Search
+
+
+Export > file > Export > glTF2.0
+>binary .glb
+select Y+ up 
+select aplly modifier
+no UV
+slect Normals 
